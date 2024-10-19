@@ -36,3 +36,61 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 # Task-Manager-App
 # Task-Manager-App
+
+Here's a clear and concise `README.md` file that includes setup instructions and a brief description of the task sorting approach:
+
+---
+
+# Task Manager App
+
+A responsive Task Manager application built with **Next.js**, allowing users to add, edit, and manage tasks with priority sorting. 
+
+## Features
+
+- **Task Creation & Editing**: Add new tasks or edit existing ones.
+- **Task Prioritization**: Sort tasks based on priority: High, Medium, and Low.
+- **Task Completion**: Mark tasks as completed or incomplete.
+- **Search Functionality**: Filter tasks by their title or description.
+- **Responsive Design**: Optimized for both desktop and mobile views.
+
+## Setup Instructions
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/task-manager-app.git
+   cd task-manager-app
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open the app:**
+   Open [http://localhost:3000](http://localhost:3000) in your browser to view and use the Task Manager app.
+
+## Sorting Tasks by Priority
+
+Tasks in the app are automatically sorted based on the following logic:
+
+1. **Priority Levels**: 
+   - **High Priority** tasks are displayed first, followed by **Medium** and then **Low Priority** tasks.
+2. **Completion Status**: 
+   - Uncompleted tasks are prioritized over completed ones. Completed tasks, regardless of their priority, are pushed to the bottom of the list.
+3. **Search Filter**: 
+   - When a user enters a search term, tasks are filtered by their title or description, allowing for easy management of tasks based on keywords.
+
+This ensures that users see the most important tasks first and can easily manage their task list based on priority and completion.
+
+## Deployment
+
+To deploy the app, you can use services like [Vercel](https://vercel.com/), which offers seamless integration for Next.js applications.
+
+---
+
+This `README.md` provides setup instructions and explains how tasks are sorted by priority for better user experience.
